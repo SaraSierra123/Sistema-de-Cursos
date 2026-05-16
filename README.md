@@ -1,4 +1,4 @@
-# Sistema de Cursos Online 🎓
+# Sistema de Cursos Online 
 
 Aplicación de consola en **.NET 8 / C#** que gestiona un sistema de cursos, instructores, estudiantes e inscripciones, integrando cuatro paradigmas de programación.
 
@@ -99,18 +99,3 @@ Los eventos son **semánticamente significativos**: reflejan cambios de estado r
 - **L** — `Estudiante` e `Instructor` son sustituibles por `Usuario` sin romper el sistema.
 - **I** — Interfaces pequeñas y específicas (`IEstudianteService`, `ICursoService`, etc.).
 - **D** — Los servicios dependen de abstracciones (`ICursoService`), no de implementaciones concretas.
-
----
-
-## Requisitos
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
-- Paquetes NuGet: `Castle.Windsor 6.0.0`, `Castle.Core 5.1.1`
-
-## Ejecución
-
-```bash
-cd SistemaCursosOnline
-dotnet restore
-dotnet run
-```
